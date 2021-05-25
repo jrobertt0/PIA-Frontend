@@ -1,4 +1,4 @@
-const direction = "http://localhost:3000/api";
+const direction = "http://localhost:5000/api";
 
 export async function registerEmail(credentials) {
 	let uri = direction + "/email/addEmail";
