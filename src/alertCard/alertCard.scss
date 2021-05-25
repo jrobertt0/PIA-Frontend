@@ -1,0 +1,28 @@
+
+.alert {
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: white;
+    max-height: 3.5rem;
+	border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-3rem);
+    z-index: -10;
+    transition: all 1s ease-in-out;
+}
+
+.success {
+    opacity: 100;
+    visibility: initial;
+    background-color: green;
+    transform: translateY(0);
+}
+
+.error {
+    opacity: 100;
+    visibility: initial;
+    background-color: rgb(160, 0, 0);
+    transform: translateY(0);
+}
